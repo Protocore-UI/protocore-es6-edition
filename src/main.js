@@ -19,7 +19,9 @@ requirejs.config({
         'hasher': 'bower_components/hasher/dist/js/hasher.min',
         'crossroads': 'bower_components/crossroads/dist/crossroads.min',
         'text': 'bower_components/requirejs-text/text',
-        'handlebars': 'bower_components/handlebars/handlebars.min'
+        'handlebars': 'bower_components/handlebars/handlebars.min',
+        'es6': 'bower_components/requirejs-babel/es6',
+        'babel': 'bower_components/requirejs-babel/babel-5.8.22.min'
     },
 
     /***
@@ -42,6 +44,9 @@ requirejs.config({
         },
         handlebars: {
             exports: 'Handlebars'
+        },
+        es6: {
+            deps: ['babel']
         }
     }
 });

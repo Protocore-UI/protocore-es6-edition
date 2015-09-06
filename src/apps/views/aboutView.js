@@ -1,33 +1,27 @@
 define(function(require) {
     'use strict';
 
-    var AboutTemplate = require('text!../templates/aboutTpl.html'),
-        BaseView = require('apps/views/_baseView');
+    let AboutTemplate = require('text!../templates/aboutTpl.html'),
+        BaseView = require('es6!apps/views/_baseView');
 
-    var AboutView = function() {
+    class AboutView extends BaseView.BaseView {
+        constructor() {
+            console.log("LOG: Executed AboutView Constructor");
+            super(AboutTemplate);
+        }
 
-        // @params: el (DOM Reference), template
-        BaseView.call(this, 'body', AboutTemplate);
+        beforeRender() {
+            console.log("LOG: AboutView Before Render");
+        }
+
+        afterRender() {
+            console.log("LOG: AboutView After Render");
+        }
+
+        eventsHash() {
+            console.log("LOG: AboutView Events Hash");
+        }
     };
 
-    AboutView.prototype = new BaseView();
-
-    AboutView.prototype.initialize = function() {
-        console.log("LOG: AboutView Initialize Method");
-        this.render();
-    };
-
-    AboutView.prototype.beforeRender = function() {
-        console.log("LOG: AboutView Before Render");
-    };
-
-    AboutView.prototype.afterRender = function() {
-        console.log("LOG: AboutView After Render");
-    };
-
-    AboutView.prototype.eventsHash = function() {
-        console.log("LOG: AboutView Events Hash");
-    };
-    
     return AboutView;
 });
