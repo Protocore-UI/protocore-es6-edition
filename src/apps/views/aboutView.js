@@ -12,6 +12,11 @@ define(function(require) {
 
     AboutView.prototype = new BaseView();
 
+    AboutView.prototype.initialize = function() {
+        console.log("LOG: AboutView Initialize Method");
+        this.render();
+    };
+
     AboutView.prototype.beforeRender = function() {
         console.log("LOG: AboutView Before Render");
     };

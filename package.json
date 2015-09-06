@@ -1,8 +1,8 @@
 {
-  "name": "Protocore",
-  "version": "0.0.7",
+  "name": "protocore-es6-edition",
+  "version": "0.0.0",
   "author": "Ashwin Hegde",
-  "description": "Protocore is an open source walking application skeleton for a typical unstructured JavaScript/jQuery web apps. You can use it to quickly bootstrap your unstructured JavaScript/jQuery web application projects.",
+  "description": "protocore-es6-edition is special ECMAScript 6 implementation edition of protocore project.",
   "contributors": [
     {
       "name": "Ashwin Hegde",
@@ -11,19 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/hegdeashwin/Protocore"
+    "url": "http://github.com/hegdeashwin/protocore-es6-edition"
   },
   "issues": {
-    "url": "http://github.com/hegdeashwin/Protocore/issues?state=open"
+    "url": "http://github.com/hegdeashwin/protocore-es6-edition/issues?state=open"
   },
   "milestones": {
-    "url": "http://github.com/hegdeashwin/Protocore/issues/milestones"
+    "url": "http://github.com/hegdeashwin/protocore-es6-edition/issues/milestones"
   },
   "releases": {
-    "url": "http://github.com/hegdeashwin/Protocore/releases"
+    "url": "http://github.com/hegdeashwin/protocore-es6-edition/releases"
   },
   "wiki": {
-    "url": "http://github.com/hegdeashwin/Protocore/wiki"
+    "url": "http://github.com/hegdeashwin/protocore-es6-edition/wiki"
   },
   "dependencies": {
     "express": "~4.13.0",
@@ -63,10 +63,12 @@
     "restful",
     "node",
     "express",
-    "architecture"
+    "architecture",
+    "es6",
+    "esmascript6"
   ],
   "engines": {
-    "node": ">=0.10"
+    "node": ">=0.12"
   },
   "main": {
     "start": "node server.js"
@@ -74,7 +76,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://raw.github.com/hegdeashwin/Protocore/master/LICENSE"
+      "url": "http://raw.github.com/hegdeashwin/protocore-es6-edition/master/LICENSE"
     }
   ]
 }

@@ -1,31 +1,42 @@
 {
-	"name": "Protocore",
-	"version": "0.0.7",
-	"homepage": "https://github.com/hegdeashwin/Protocore",
-	"authors": [
-		"hegdeashwin <ashwin.hegde3@gmail.com>"
-	],
-	"dependencies": {
-		"jquery": "2.0.3",
-		"js-signals": "1.0.0",
-		"hasher": "1.2.0",
-		"crossroads": "https://github.com/millermedeiros/crossroads.js.git#v0.12.0",
-		"requirejs-text": "2.0.10",
-		"handlebars": "3.0.3",
-		"requirejs": "https://github.com/jrburke/requirejs.git#2.1.17",
-		"rjs": "https://github.com/jrburke/r.js.git#2.1.17",
-		"qunit": "1.11.0"
-	},
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"src/bower_components",
-		"test",
-		"tests",
-		"prod"
-	],
-	"keywords": [
-		"javascript", "jquery", "framework", "web", "rest", "restful", "node", "express", "architecture"
-	]
+  "name": "protocore-es6-edition",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hegdeashwin/protocore-es6-edition",
+  "authors": [
+    "hegdeashwin <ashwin.hegde3@gmail.com>"
+  ],
+  "dependencies": {
+    "crossroads": "https://github.com/millermedeiros/crossroads.js.git#v0.12.0",
+    "handlebars": "3.0.3",
+    "hasher": "1.2.0",
+    "jquery": "2.0.3",
+    "js-signals": "1.0.0",
+    "qunit": "1.11.0",
+    "requirejs": "https://github.com/jrburke/requirejs.git#2.1.17",
+    "requirejs-babel": "~0.0.8",
+    "requirejs-text": "2.0.10",
+    "rjs": "https://github.com/jrburke/r.js.git#2.1.17"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "prod"
+  ],
+  "keywords": [
+    "javascript",
+    "jquery",
+    "framework",
+    "web",
+    "rest",
+    "restful",
+    "node",
+    "express",
+    "architecture",
+    "es6",
+    "ecmascript6"
+  ]
 }
