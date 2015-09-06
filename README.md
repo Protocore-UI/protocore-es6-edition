@@ -1,22 +1,23 @@
-# Protocore [![GitHub version](http://img.shields.io/badge/version-0.0.7-brightgreen.svg)](https://github.com/hegdeashwin/Protocore/releases)
+# protocore-es6-edition [![GitHub version](http://img.shields.io/badge/version-0.0.7-brightgreen.svg)](https://github.com/hegdeashwin/protocore-es6-edition/releases)
 
-[![Build Status](https://travis-ci.org/hegdeashwin/Protocore.svg?branch=master)](https://travis-ci.org/hegdeashwin/Protocore)   [![Dependency Status](https://gemnasium.com/hegdeashwin/Protocore.svg)](https://gemnasium.com/hegdeashwin/Protocore)  [![Node.js version](http://img.shields.io/badge/Node.js-%3E%200.10-brightgreen.svg)](https://github.com/hegdeashwin/Protocore/)  [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)](https://github.com/hegdeashwin/Protocore#license)
+[![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)](https://github.com/hegdeashwin/protocore-es6-edition#license)
 
 
-Protocore is an open source walking application skeleton for a typical unstructured JavaScript/jQuery web apps. You can use it to quickly bootstrap your unstructured JavaScript/jQuery web application projects.
+protocore-es6-edition is special **ECMAScript 6** implementation edition of <a href="//github.com/hegdeashwin/protocore" target="_blank">Protocore</a> project.
 
 ## Prerequisites
 
-As Protocore is based on JavaScript. It is assumed user already knows JavaScript and jQuery.
+As protocore-es6-edition is based on JavaScript. It is assumed user already knows JavaScript and jQuery.
 
-For understanding Protocore, knowledge of following JavaScript libraries/frameworks are must.
-* Require.js - a JavaScript file and module loader. For more information visit <a href="//requirejs.org/" target="_blank">requirejs.org</a></p></li>
+For understanding protocore-es6-edition, knowledge of following JavaScript libraries/frameworks are must.
+* Require.js - a JavaScript file and module loader. For more information visit <a href="//requirejs.org/" target="_blank">requirejs.org</a>
+* ECMAScript 6 - Understanding and features.
 
 ## Installation
 
 Assuming that Git is already installed & running:
 ```
-git clone https://github.com/hegdeashwin/Protocore
+git clone https://github.com/hegdeashwin/protocore-es6-edition
 ```
 
 Assuming that Node.js & Bower is already installed & running, 
@@ -55,13 +56,6 @@ To start the production server:
 ```
 NODE_ENV=production node server.js
 ```
-
-## Protocore Generator
-
-[generator-protocore](https://github.com/hegdeashwin/generator-protocore) is a Yeoman generator for Protocore. The tool will help to generate walking application skeleton for a typical unstructured JavaScript/jQuery web apps.
-
-[Protocore-cli](https://github.com/hegdeashwin/protocore-cli) is a command line generator for Protocore. This tool will help to generate a walking application skeleton for a typical unstructured JavaScript/jQuery web apps.
-
 ## Server layer
 
 The server side codebase resides in the ```server.js``` and ```config.js``` files. By default, the server layer is written in JavaScript (Node.js with Express 4.x) which can be configured and flexible to work with any server side scripting language like Java, PHP, ASP.NET or others. As client and server layer are seperate entity.
@@ -114,11 +108,11 @@ The codebase comes with LESS setup with a ```Scalable and Modular Architecture f
 
 ## Task automation
 
-Protocore comes with Grunt ecosystem - a JavaScript task runner to perform repetitive tasks like minification, compilation, unit testing, linting etc. Many of the tasks you need are already available as published Grunt plugins.
+protocore-es6-edition comes with Grunt ecosystem - a JavaScript task runner to perform repetitive tasks like minification, compilation, unit testing, linting etc. Many of the tasks you need are already available as published Grunt plugins.
 
 Few task automations has been configured to detect errors and potential problems in codebase and to enforce your team's coding conventions. 
 
-Following are the default Grunt plugins that has been integrated with Protocore codebase.
+Following are the default Grunt plugins that has been integrated with protocore-es6-edition codebase.
 
 **Automations tasks & commands**
 
@@ -151,27 +145,14 @@ Following are the default Grunt plugins that has been integrated with Protocore 
 |:---|
 |Plato : ```grunt analysis``` OR ```grunt plato```|
 
-
-## Continuous Integration
-
-### Travis CI
-
-[Travis CI](https://travis-ci.org/hegdeashwin/Protocore/) is a continuous integration service, which can monitor GitHub for new commits
-to your repository and execute scripts such as building the app or running tests. The Protocore 
-contains a Travis configuration file, `.travis.yml`, which will cause Travis to run your tests 
-when you push to GitHub.
-
-You will need to enable the integration between Travis and GitHub. See the Travis website for more
-instruction on how to do this.
-
 ## Author & Contributors
 
 Developed &amp; maintained by author: Ashwin Hegde and contributions.
 
-We really appreciate all kind of contributions. Special thanks to <a href="//github.com/hegdeashwin/Protocore/graphs/contributors" target="_blank">contributors</a> for using and supporting Protocore.
+We really appreciate all kind of contributions. Special thanks to <a href="//github.com/hegdeashwin/protocore-es6-edition/graphs/contributors" target="_blank">contributors</a> for using and supporting protocore-es6-edition.
 
 To request a feature or you find any typo errors, enhancements or questions; please feel free to post it on following link, or vote for the ones that are already registered.
-<br>Tracking: <a href="https://github.com/hegdeashwin/Protocore/issues" target="_blank">https://github.com/hegdeashwin/Protocore/issues</a>
+<br>Tracking: <a href="https://github.com/hegdeashwin/protocore-es6-edition/issues" target="_blank">https://github.com/hegdeashwin/protocore-es6-edition/issues</a>
 
 ## License
 
