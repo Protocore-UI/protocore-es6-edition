@@ -12,6 +12,11 @@ define(function(require) {
 
     HomeView.prototype = new BaseView();
 
+    HomeView.prototype.initialize = function() {
+        console.log("LOG: HomeView Initialize Method");
+        this.render();
+    };
+
     HomeView.prototype.beforeRender = function() {
         console.log("LOG: HomeView Before Render");
     };

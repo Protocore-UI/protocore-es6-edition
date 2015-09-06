@@ -9,7 +9,9 @@ define(['jquery', 'handlebars'], function($, Handlebars) {
     BaseView.prototype.initialize = function() {
         console.log("LOG: Initialize Baseview");
 
-        this.render();
+        if (this.initialize) {
+            this.initialize();
+        }
     };
 
     BaseView.prototype.render = function() {
