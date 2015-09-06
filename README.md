@@ -1,4 +1,4 @@
-# protocore-es6-edition [![GitHub version](http://img.shields.io/badge/version-0.0.7-brightgreen.svg)](https://github.com/hegdeashwin/protocore-es6-edition/releases)
+# protocore-es6-edition [![GitHub version](http://img.shields.io/badge/version-0.0.1-brightgreen.svg)](https://github.com/hegdeashwin/protocore-es6-edition/releases)
 
 [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)](https://github.com/hegdeashwin/protocore-es6-edition#license)
 
@@ -41,11 +41,11 @@ grunt compileLessDev
 
 To start the development server:
 ```
-node server.js
+node --harmony server.js
 ```
 or
 ```
-NODE_ENV=development node server.js
+NODE_ENV=development node --harmony server.js
 ```
 or
 ```
@@ -54,8 +54,9 @@ npm start
 
 To start the production server:
 ```
-NODE_ENV=production node server.js
+NODE_ENV=production node --harmony server.js
 ```
+
 ## Server layer
 
 The server side codebase resides in the ```server.js``` and ```config.js``` files. By default, the server layer is written in JavaScript (Node.js with Express 4.x) which can be configured and flexible to work with any server side scripting language like Java, PHP, ASP.NET or others. As client and server layer are seperate entity.
