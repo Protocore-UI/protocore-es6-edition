@@ -1,32 +1,26 @@
 define(function(require) {
     'use strict';
 
-    var HomeTemplate = require('text!../templates/homeTpl.html'),
-        BaseView = require('apps/views/_baseView');
+    let HomeTemplate = require('text!../templates/homeTpl.html'),
+        BaseView = require('es6!apps/views/_baseView');
 
-    var HomeView = function() {
+    class HomeView extends BaseView.BaseView {
+        constructor() {
+            console.log("LOG: Executed HomeView Constructor");
+            super(HomeTemplate);
+        }
 
-        // @params: el (DOM Reference), template
-        BaseView.call(this, 'body', HomeTemplate);
-    };
+        beforeRender() {
+            console.log("LOG: HomeView Before Render");
+        }
 
-    HomeView.prototype = new BaseView();
+        afterRender() {
+            console.log("LOG: HomeView After Render");
+        }
 
-    HomeView.prototype.initialize = function() {
-        console.log("LOG: HomeView Initialize Method");
-        this.render();
-    };
-
-    HomeView.prototype.beforeRender = function() {
-        console.log("LOG: HomeView Before Render");
-    };
-
-    HomeView.prototype.afterRender = function() {
-        console.log("LOG: HomeView After Render");
-    };
-
-    HomeView.prototype.eventsHash = function() {
-        console.log("LOG: HomeView Events Hash");
+        eventsHash() {
+            console.log("LOG: HomeView Events Hash");
+        }
     };
 
     return HomeView;

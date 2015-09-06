@@ -1,21 +1,20 @@
-define(['jquery', 'handlebars'], function($, Handlebars) {
-    'use strict';
+'use strict';
 
-    var BaseView = function(el, template) {
-        this.el = el || 'body';
+import * as $ from 'jquery';
+import * as Handlebars from 'handlebars';
+
+export class BaseView {
+    constructor(template, el = 'body') {
+        console.log("LOG: Executed BaseView Constructor");
+
         this.template = template;
-    };
+        this.el = el;
 
-    BaseView.prototype.initialize = function() {
-        console.log("LOG: Initialize Baseview");
+        this.render();
+    }
 
-        if (this.initialize) {
-            this.initialize();
-        }
-    };
-
-    BaseView.prototype.render = function() {
-        console.log("LOG: Executed Baseview Render");
+    render() {
+        console.log("LOG: Executed BaseView Render");
 
         if (this.beforeRender) {
             this.beforeRender();
@@ -32,7 +31,5 @@ define(['jquery', 'handlebars'], function($, Handlebars) {
                 this.eventsHash();
             }
         }
-    };
-
-    return BaseView;
-});
+    }
+};
