@@ -3,31 +3,31 @@
 [![Built with Grunt](http://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)  [![License version](http://img.shields.io/badge/License-MIT-red.svg)](https://github.com/hegdeashwin/protocore-es6-edition#license)
 
 
-protocore-es6-edition is special **ECMAScript 6** implementation edition of <a href="//github.com/hegdeashwin/protocore" target="_blank">Protocore</a> project.
+protocore-es6-edition is special **ECMAScript 6** implementation edition of [Protocore](//github.com/Protocore-UI/protocore) project.
 
 ## Prerequisites
 
 As protocore-es6-edition is based on JavaScript. It is assumed user already knows JavaScript and jQuery.
 
 For understanding protocore-es6-edition, knowledge of following JavaScript libraries/frameworks are must.
-* Require.js - a JavaScript file and module loader. For more information visit <a href="//requirejs.org/" target="_blank">requirejs.org</a>
+* Require.js - a JavaScript file and module loader. For more information visit [requirejs.org](//requirejs.org/)
 * ECMAScript 6 - Understanding and features.
 
 ## Installation
 
 Assuming that Git is already installed & running:
 ```
-git clone https://github.com/hegdeashwin/protocore-es6-edition
+git clone https://github.com/Protocore-UI/protocore-es6-edition
 ```
 
-Assuming that Node.js & Bower is already installed & running, 
+Assuming that Node.js & Bower is already installed & running,
 
 Install dependencies:
 ```
 npm install
 ```
 
-Assuming that Bower is already installed & running, 
+Assuming that Bower is already installed & running,
 
 Install client-side dependencies:
 ```
@@ -111,7 +111,7 @@ The codebase comes with LESS setup with a ```Scalable and Modular Architecture f
 
 protocore-es6-edition comes with Grunt ecosystem - a JavaScript task runner to perform repetitive tasks like minification, compilation, unit testing, linting etc. Many of the tasks you need are already available as published Grunt plugins.
 
-Few task automations has been configured to detect errors and potential problems in codebase and to enforce your team's coding conventions. 
+Few task automations has been configured to detect errors and potential problems in codebase and to enforce your team's coding conventions.
 
 Following are the default Grunt plugins that has been integrated with protocore-es6-edition codebase.
 
@@ -150,13 +150,13 @@ Following are the default Grunt plugins that has been integrated with protocore-
 
 Developed &amp; maintained by author: Ashwin Hegde and contributions.
 
-We really appreciate all kind of contributions. Special thanks to <a href="//github.com/hegdeashwin/protocore-es6-edition/graphs/contributors" target="_blank">contributors</a> for using and supporting protocore-es6-edition.
+We really appreciate all kind of contributions. Special thanks to [Contributors](//github.com/hegdeashwin/protocore-es6-edition/graphs/contributors) for using and supporting protocore-es6-edition.
 
 To request a feature or you find any typo errors, enhancements or questions; please feel free to post it on following link, or vote for the ones that are already registered.
-<br>Tracking: <a href="https://github.com/hegdeashwin/protocore-es6-edition/issues" target="_blank">https://github.com/hegdeashwin/protocore-es6-edition/issues</a>
+[https://github.com/hegdeashwin/protocore-es6-edition/issues](https://github.com/hegdeashwin/protocore-es6-edition/issues)
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Ashwin Hegde
+Copyright (c) 2016 Ashwin Hegde
